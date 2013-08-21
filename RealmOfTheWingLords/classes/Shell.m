@@ -7,6 +7,7 @@
 //
 
 #import "Shell.h"
+#import "NameListView.h"
 
 @implementation Shell
 
@@ -15,7 +16,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-		
+		[self addSubview:[[NameListView alloc] initWithFrame:frame]];
     }
     return self;
 }
