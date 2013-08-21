@@ -1,5 +1,5 @@
 //
-//  NameListView.h
+//  NameListViewCell.h
 //  RealmOfTheWingLords
 //
 //  Created by Adam Borzecki on 2013-08-21.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NameListView : UIView <UITableViewDelegate, UITableViewDataSource>
-{
-	UITableView *list;
-	UIButton *confirmButton;
-	NSArray *data;
-}
+@interface NameListViewCell : UITableViewCell
 
 @end
