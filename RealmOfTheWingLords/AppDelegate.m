@@ -7,21 +7,34 @@
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
+#import "Shell.h"
 
 @implementation AppDelegate
+
+@synthesize rootViewController;
 
 - (void)dealloc
 {
 	[_window release];
+	self.rootViewController = nil;
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+	
+	self.rootViewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
+	Shell *shell = [[[Shell alloc] initWithFrame:self.window.frame] autorelease];
+	
+	self.rootViewController.view = shell;
+	[self.window addSubview:self.rootViewController.view];
+	
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+	self.window.rootViewController = self.rootViewController;
     return YES;
 }
 

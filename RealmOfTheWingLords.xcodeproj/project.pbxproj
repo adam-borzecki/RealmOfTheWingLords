@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E1F8A2317C4FA6D009C2024 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F8A2217C4FA6D009C2024 /* RootViewController.m */; };
+		8E1F8A2917C5173C009C2024 /* Shell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F8A2817C5173C009C2024 /* Shell.m */; };
+		8E1F8A2C17C51827009C2024 /* NameListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F8A2B17C51827009C2024 /* NameListView.m */; };
 		8E74137617C4F88300BFB351 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E74137517C4F88300BFB351 /* UIKit.framework */; };
 		8E74137817C4F88300BFB351 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E74137717C4F88300BFB351 /* Foundation.framework */; };
 		8E74137A17C4F88300BFB351 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E74137917C4F88300BFB351 /* CoreGraphics.framework */; };
@@ -19,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E1F8A2117C4FA6D009C2024 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = classes/RootViewController.h; sourceTree = "<group>"; };
+		8E1F8A2217C4FA6D009C2024 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = classes/RootViewController.m; sourceTree = "<group>"; };
+		8E1F8A2717C5173C009C2024 /* Shell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shell.h; path = classes/Shell.h; sourceTree = "<group>"; };
+		8E1F8A2817C5173C009C2024 /* Shell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shell.m; path = classes/Shell.m; sourceTree = "<group>"; };
+		8E1F8A2A17C51827009C2024 /* NameListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NameListView.h; path = classes/NameListView.h; sourceTree = "<group>"; };
+		8E1F8A2B17C51827009C2024 /* NameListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NameListView.m; path = classes/NameListView.m; sourceTree = "<group>"; };
 		8E74137217C4F88300BFB351 /* RealmOfTheWingLords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmOfTheWingLords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E74137517C4F88300BFB351 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8E74137717C4F88300BFB351 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -81,6 +90,12 @@
 				8E74138417C4F88300BFB351 /* AppDelegate.h */,
 				8E74138517C4F88300BFB351 /* AppDelegate.m */,
 				8E74137C17C4F88300BFB351 /* Supporting Files */,
+				8E1F8A2117C4FA6D009C2024 /* RootViewController.h */,
+				8E1F8A2217C4FA6D009C2024 /* RootViewController.m */,
+				8E1F8A2717C5173C009C2024 /* Shell.h */,
+				8E1F8A2817C5173C009C2024 /* Shell.m */,
+				8E1F8A2A17C51827009C2024 /* NameListView.h */,
+				8E1F8A2B17C51827009C2024 /* NameListView.m */,
 			);
 			path = RealmOfTheWingLords;
 			sourceTree = "<group>";
@@ -166,6 +181,9 @@
 			files = (
 				8E74138217C4F88300BFB351 /* main.m in Sources */,
 				8E74138617C4F88300BFB351 /* AppDelegate.m in Sources */,
+				8E1F8A2317C4FA6D009C2024 /* RootViewController.m in Sources */,
+				8E1F8A2917C5173C009C2024 /* Shell.m in Sources */,
+				8E1F8A2C17C51827009C2024 /* NameListView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +298,7 @@
 				8E74139117C4F88300BFB351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
